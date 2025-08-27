@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(cors({
   origin: [
     "http://localhost:3000",              // local dev
-    "https://trellolite-frontend.vercel.app/login"     // your Vercel frontend URL
+    "https://trellolite-frontend.vercel.app"     // your Vercel frontend URL
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
